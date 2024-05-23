@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz</title>
+</head>
+<body>
+  <h1>Quiz</h1>
+  <form action="/submit" method="post">
+    <% questions.forEach((question, index) => { %>
+      <h3><%= question.question %></h3>
+      <% question.choices.forEach((choice) => { %>
+        <input type="radio" name="question<%= index %>" value="<%= choice %>">
+        <%= choice %><br>
+      <% }); %>
+      <br>
+    <% }); %>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
