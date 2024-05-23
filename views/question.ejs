@@ -2,24 +2,22 @@
 <html>
 <head>
   <title>Quiz - Question <%= question.id %></title>
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
   <h1>Question <%= question.id %></h1>
-  <form id="quizForm" action="/submit" method="post">
+  <div class="question">
     <h3><%= question.question %></h3>
     <% question.choices.forEach((choice) => { %>
-      <input type="radio" name="answer" value="<%= choice %>" onclick="submitForm()">
-      <%= choice %><br>
+      <form action="/submit" method="post">
+        <input type="hidden" name="questionId" value="<%= question.id %>">
+        <button type="submit" name="answer" value="<%= choice %>" class="choice-button"><%= choice %></button>
+      </form>
     <% }); %>
-    <input type="hidden" name="questionId" value="<%= question.id %>">
-    <br>
-    <input type="submit" name="answer" value="I don't know" onclick="submitForm()">
-  </form>
-
-  <script>
-    function submitForm() {
-      document.getElementById("quizForm").submit();
-    }
-  </script>
+    <form action="/submit" method="post">
+      <input type="hidden" name="questionId" value="<%= question.id %>">
+      <button type="submit" name="answer" value="" class="dont-know-button">I don't know</button>
+    </form>
+  </div>
 </body>
 </html>
