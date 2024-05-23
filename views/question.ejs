@@ -5,15 +5,21 @@
 </head>
 <body>
   <h1>Question <%= question.id %></h1>
-  <form action="/submit" method="post">
-      <h3><%= question.question %></h3>
-      <% question.choices.forEach((choice) => { %>
-        <input type="radio" name="answer" value="<%= choice %>">
-        <%= choice %><br>
-      <% }); %>
-      <input type="hidden" name="questionId" value="<%= question.id %>">
-      <br>
-     <input type="submit" value="Submit">
+  <form id="quizForm" action="/submit" method="post">
+    <h3><%= question.question %></h3>
+    <% question.choices.forEach((choice) => { %>
+      <input type="radio" name="answer" value="<%= choice %>" onclick="submitForm()">
+      <%= choice %><br>
+    <% }); %>
+    <input type="hidden" name="questionId" value="<%= question.id %>">
+    <br>
+    <input type="submit" name="answer" value="I don't know" onclick="submitForm()">
   </form>
+
+  <script>
+    function submitForm() {
+      document.getElementById("quizForm").submit();
+    }
+  </script>
 </body>
 </html>
