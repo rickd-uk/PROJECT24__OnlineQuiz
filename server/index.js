@@ -1,4 +1,5 @@
 const express = require("express");
+const session = require("express-session");
 const app = express();
 const path = require("path");
 const questions = require("../data/quizData");
@@ -15,6 +16,13 @@ app.use(express.static(path.join(__dirname, "../public")));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+app.use(
+  session({
+    secret: "123",
+    resave: false,
+    saveUninitialized: true,
+  }),
+);
 // render the first question
 app.get("/", (req, res) => {
   res.redirect(`/question/${questions[0].id}`);
@@ -37,8 +45,18 @@ app.post("/submit", quizController.handleQuizSubmission);
 
 //render result page
 app.get("/result", (req, res) => {
-  res.render("result");
+  // calculate the score based on user's answers
+  let score = 0;
+  for (const questionId in req.session.answers) {
+    const userAnswer = req.session.answers[questionId];
+    const question = questions.find((q) => q.id === parseInt(questionId));
+    if (userAnswer === question.answer) {
+      score++;
+    }
+  }
+  res.render("result", { score: score, totalQuestions: questions.length });
 });
+
 // Start the server
 app.listen(3000, () => {
   console.log("Server is running on port 3000");

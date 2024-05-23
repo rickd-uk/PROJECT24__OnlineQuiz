@@ -7,18 +7,17 @@ function handleQuizSubmission(req, res) {
   // find the current question
   const currentQuestion = questions.find((q) => q.id === questionId);
 
-  if (userAnswer === currentQuestion.answer) {
-    // answer is correct, so move to the next question or show result
-    const nextQuestionId = questionId + 1;
-    const nextQuestion = questions.find((q) => q.id === nextQuestionId);
+  // save the user's answer (session or database store is possible)
+  req.session.answers = req.session.answers || {};
+  req.session.answers[questionId] = userAnswer;
 
-    if (nextQuestion) {
-      res.redirect(`/question/${nextQuestionId}`);
-    } else {
-      res.redirect("/result");
-    }
+  const nextQuestionId = questionId + 1;
+  const nextQuestion = questions.find((q) => q.id === nextQuestionId);
+
+  if (nextQuestion) {
+    res.redirect(`/question/${nextQuestionId}`);
   } else {
-    res.send("Incorrect answer. Please try again");
+    res.redirect("/result");
   }
 }
 
