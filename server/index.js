@@ -23,20 +23,34 @@ app.use(
     saveUninitialized: true,
   }),
 );
+
+// Define the shuffleArray function
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 // render the first question
 app.get("/", (req, res) => {
   res.redirect(`/question/${questions[0].id}`);
 });
 
-// render individual questions
+// Render individual questions
 app.get("/question/:id", (req, res) => {
   const questionId = parseInt(req.params.id);
   const question = questions.find((q) => q.id === questionId);
 
   if (question) {
-    res.render("question", { question: question });
+    const shuffledChoices = shuffleArray([...question.choices]);
+    res.render("question", {
+      question: question,
+      shuffledChoices: shuffledChoices,
+    });
   } else {
-    res.status(404).send("question not found");
+    res.status(404).send("Question not found");
   }
 });
 
@@ -48,9 +62,8 @@ app.get("/result", (req, res) => {
   // calculate the score based on user's answers
   let score = 0;
   for (const questionId in req.session.answers) {
-    const userAnswer = req.session.answers[questionId];
-    const question = questions.find((q) => q.id === parseInt(questionId));
-    if (userAnswer === question.answer) {
+    const { userAnswer, correctAnswer } = req.session.answers[questionId];
+    if (userAnswer === correctAnswer) {
       score++;
     }
   }

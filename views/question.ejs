@@ -8,7 +8,7 @@
   <h1>Question <%= question.id %></h1>
   <div class="question">
     <h3><%= question.question %></h3>
-    <% question.choices.forEach((choice) => { %>
+    <% shuffledChoices.forEach((choice) => { %>
       <form action="/submit" method="post">
         <input type="hidden" name="questionId" value="<%= question.id %>">
         <button type="submit" name="answer" value="<%= choice %>" class="choice-button"><%= choice %></button>
