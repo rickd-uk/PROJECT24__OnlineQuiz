@@ -1,17 +1,25 @@
 const questions = require("../data/quizData");
 
 function handleQuizSubmission(req, res) {
-  let score = 0;
-  const userAnswers = req.body;
+  const questionId = parseInt(req.body.questionId);
+  const userAnswer = req.body.answer;
 
-  // check user answers against correct answers
-  for (let i = 0; i < questions.length; i++) {
-    if (userAnswers[`question${i}`] === questions[i].answer) {
-      score++;
+  // find the current question
+  const currentQuestion = questions.find((q) => q.id === questionId);
+
+  if (userAnswer === currentQuestion.answer) {
+    // answer is correct, so move to the next question or show result
+    const nextQuestionId = questionId + 1;
+    const nextQuestion = questions.find((q) => q.id === nextQuestionId);
+
+    if (nextQuestion) {
+      res.redirect(`/question/${nextQuestionId}`);
+    } else {
+      res.redirect("/result");
     }
+  } else {
+    res.send("Incorrect answer. Please try again");
   }
-
-  res.render("result", { score: score, totalQuestions: question.length });
 }
 
 module.exports = {

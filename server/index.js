@@ -15,20 +15,30 @@ app.use(express.static(path.join(__dirname, "../public")));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// render the quiz page
+// render the first question
 app.get("/", (req, res) => {
-  res.render("quiz", { questions: questions });
+  res.redirect(`/question/${questions[0].id}`);
 });
 
+// render individual questions
+app.get("/question/:id", (req, res) => {
+  const questionId = parseInt(req.params.id);
+  const question = questions.find((q) => q.id === questionId);
+
+  if (question) {
+    res.render("question", { question: question });
+  } else {
+    res.status(404).send("question not found");
+  }
+});
 
 // Handle quiz submission
 app.post("/submit", quizController.handleQuizSubmission);
-  
 
-  // Render the result page with the user's score
-  res.render("result", { score: score, totalQuestions: questions.length });
+//render result page
+app.get("/result", (req, res) => {
+  res.render("result");
 });
-
 // Start the server
 app.listen(3000, () => {
   console.log("Server is running on port 3000");
