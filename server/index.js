@@ -5,9 +5,22 @@ const path = require("path");
 const fs = require("fs");
 const quizController = require("../controllers/quizController");
 
-const questions = JSON.parse(
-  fs.readFileSync(path.join(__dirname, "../data/questions.json")),
-);
+const quizDir = path.join(__dirname, "../quizzes");
+
+const quizzes = fs
+  .readdirSync(quizDir)
+  .filter((file) => file.endsWith(".json"))
+  .map((file) => {
+    const filePath = path.join(quizDir, file);
+    const quizData = JSON.parse(fs.readFileSync(filePath, "utf8"));
+    return {
+      name: file.slice(0, -5),
+      questions: quizData,
+    };
+  });
+// const questions = JSON.parse(
+//   fs.readFileSync(path.join(__dirname, "../data/questions.json")),
+// );
 
 // Set up EJS as the view engine
 app.set("view engine", "ejs");
@@ -39,14 +52,26 @@ function shuffleArray(array) {
 
 // render the first question
 app.get("/", (req, res) => {
-  res.render("selectQuestions", { totalQuestions: questions.length });
+  const maxQuestions = quizzes.reduce(
+    (max, quiz) => Math.max(max, quiz.questions.length),
+    0,
+  );
+  res.render("selectQuestions", { quizzes, maxQuestions });
 });
 
 app.post("/start-quiz", (req, res) => {
+  const quizName = req.body.quizName;
   const numQuestions = parseInt(req.body.numQuestions);
 
+  if (!quizName) {
+    return res.status(404).send("Please select a quiz");
+  }
+  const selectedQuiz = quizzes.find((quiz) => quiz.name === quizName);
+  if (!selectedQuiz) {
+    return res.status(404).send("Quiz Not Found");
+  }
   // shuffle questions
-  const shuffledQuestions = shuffleArray([...questions]);
+  const shuffledQuestions = shuffleArray([...selectedQuiz.questions]);
 
   // select specified num of q.
   const selectedQuestions = shuffledQuestions.slice(0, numQuestions);

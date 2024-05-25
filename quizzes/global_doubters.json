@@ -1,0 +1,152 @@
+[
+
+{
+  "question": "Which word means to doubt the truth or validity of something?",
+  "choices": [
+    "skepticism",
+    "sincerity",
+    "scholarly",
+    "selective"
+  ]
+},
+
+{
+  "question": "What term describes someone who is difficult to persuade or unwilling to change their mind?",
+  "choices": [
+    "stubborn",
+    "seemingly",
+    "conceivable",
+    "tactics"
+  ]
+},
+
+{
+  "question": "To treat or regard something with disdain or contempt is to:",
+  "choices": [
+    "be scornful of ~",
+    "cast doubt on ~",
+    "be suspicious of ~",
+    "underestimate"
+  ]
+},
+
+{
+  "question": "Using clever ideas or methods to achieve something is to:",
+  "choices": [
+    "use ingenuity to do",
+    "shrug one's shoulders",
+    "seduce",
+    "escalate"
+  ]
+},
+
+{
+  "question": "Which phrase means to cause someone to question or feel uncertain about something?",
+  "choices": [
+    "cast doubt on ~",
+    "be scornful of ~",
+    "use ingenuity to do", 
+    "be suspicious of ~"
+  ]
+},
+
+{
+  "question": "To attract or tempt someone, sometimes in a subtle or gradual way, is to:",
+  "choices": [
+    "seduce",
+    "shrug one's shoulders",
+    "underestimate",
+    "cast doubt on ~"
+  ]
+},
+
+{
+  "question": "Which word suggests that something appears to be the case but may not be?",
+  "choices": [
+    "seemingly",
+    "sincerity",
+    "scholarly",
+    "selective"
+  ]
+},
+
+{
+  "question": "Having or showing deep knowledge or learning, especially in the humanities, is described as:",
+  "choices": [
+    "scholarly",
+    "conceivable",
+    "stubborn",
+    "tactics"
+  ]
+},
+
+{
+  "question": "Carefully planned actions or strategies, especially in politics or business, are called:",
+  "choices": [
+    "tactics",
+    "skepticism",
+    "sincerity",
+    "seemingly"
+  ]
+},
+
+{
+  "question": "Carefully choosing some things and not others based on certain criteria is being:",
+  "choices": [
+    "selective",
+    "scholarly",
+    "conceivable",
+    "stubborn" 
+  ]
+},
+
+{
+  "question": "To have doubts about the honesty or reliability of someone or something is to:",
+  "choices": [
+    "be suspicious of ~",
+    "underestimate",
+    "seduce",
+    "use ingenuity to do"
+  ]
+},
+
+{
+  "question": "The quality of being free from pretense or deceit is called:",
+  "choices": [
+    "sincerity",
+    "skepticism",
+    "tactics",
+    "selective"
+  ]
+},
+
+{
+  "question": "Which word means possible to imagine or believe?",
+  "choices": [
+    "conceivable",
+    "scholarly",
+    "seemingly",
+    "sincerity"
+  ]
+},  
+
+{
+  "question": "To consider something to be less important or less capable than it really is means to:",
+  "choices": [
+    "underestimate",
+    "seduce",
+    "cast doubt on ~",
+    "be scornful of ~"
+  ]
+},
+
+{
+  "question": "A gesture expressing indifference or resignation is to:",
+  "choices": [
+    "shrug one's shoulders",
+    "use ingenuity to do",
+    "be suspicious of ~",
+    "escalate"
+  ]
+}
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "question": "Which word describes something that is safe to eat?",
+    "choices": [
+      "edible",
+      "pest",
+      "filthy",
+      "poison"
+    ]
+  },
+  {
+    "question": "An organism that damages crops, food, or livestock is called a:",
+    "choices": [
+      "pest",
+      "mammal",
+      "defender",
+      "radiation"
+    ]
+  },
+  {
+    "question": "Which word means very dirty or disgusting?",
+    "choices": [
+      "filthy",
+      "assorted",
+      "advisable",
+      "wholesale"
+    ]
+  },
+  {
+    "question": "A state of unease or annoyance is called:",
+    "choices": [
+      "discomfort",
+      "persecution",
+      "decay",
+      "nitrogen"
+    ]
+  },
+  {
+    "question": "A substance that causes illness, injury, or death when ingested or absorbed is:",
+    "choices": [
+      "poison",
+      "radiation",
+      "mammal",
+      "hinge on ~"
+    ]
+  },
+  {
+    "question": "To formally expel someone from a place or situation is to:",
+    "choices": [
+      "banish A from B",
+      "digest",
+      "stick up for ~",
+      "from the point of view of ~"
+    ]
+  },
+  {
+    "question": "The emission of energy as electromagnetic waves or subatomic particles is called:",
+    "choices": [
+      "radiation",
+      "decay",
+      "nitrogen",
+      "wholesale"
+    ]
+  },
+  {
+    "question": "The systematic mistreatment of a person or group is known as:",
+    "choices": [
+      "persecution",
+      "assorted",
+      "edible",
+      "defender"
+    ]
+  },
+  {
+    "question": "Which word means sensible, wise, or prudent?",
+    "choices": [
+      "advisable",
+      "filthy",
+      "discomfort",
+      "hinge on ~"
+    ]
+  },
+  {
+    "question": "Selling goods in large quantities, typically at a lower price, is called:",
+    "choices": [
+      "wholesale",
+      "mammal",
+      "digest",
+      "stick up for ~"
+    ]
+  },
+  {
+    "question": "To defend or support someone, especially when they are being criticized or attacked, is to:",
+    "choices": [
+      "stick up for ~",
+      "decay",
+      "banish A from B",
+      "from the point of view of ~"
+    ]
+  },
+  {
+    "question": "A person who supports or protects someone or something is called a:",
+    "choices": [
+      "defender",
+      "nitrogen",
+      "radiation",
+      "poison"
+    ]
+  },
+  {
+    "question": "The phrase meaning \"from the perspective of\" is:",
+    "choices": [
+      "from the point of view of ~",
+      "hinge on ~",
+      "stick up for ~",
+      "banish A from B"
+    ]
+  },
+  {
+    "question": "Which word means consisting of various types or elements?",
+    "choices": [
+      "assorted",
+      "advisable",
+      "edible",
+      "persecution"
+    ]
+  },
+  {
+    "question": "A warm-blooded vertebrate animal that typically gives birth to live young and secretes milk is a:",
+    "choices": [
+      "mammal",
+      "pest",
+      "defender",
+      "decay"
+    ]
+  },
+  {
+    "question": "To break down food in the alimentary canal into substances that can be absorbed and used by the body is to:",
+    "choices": [
+      "digest",
+      "hinge on ~",
+      "banish A from B",
+      "wholesale"
+    ]
+  },
+  {
+    "question": "The process of organic matter rotting or decomposing is called:",
+    "choices": [
+      "decay",
+      "nitrogen",
+      "radiation",
+      "assorted"
+    ]
+  },
+  {
+    "question": "A colorless, odorless gas that makes up about 78% of the Earth's atmosphere is:",
+    "choices": [
+      "nitrogen",
+      "poison",
+      "mammal",
+      "discomfort"
+    ]
+  },
+  {
+    "question": "To be entirely dependent on something is to:",
+    "choices": [
+      "hinge on ~",
+      "stick up for ~",
+      "from the point of view of ~",
+      "digest"
+    ]
+  }
+]

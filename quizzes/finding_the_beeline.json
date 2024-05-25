@@ -1,0 +1,344 @@
+[
+{
+"question": "Which word means having or showing great energy and enthusiasm?",
+"choices": [
+"energetic",
+"cooperative",
+"ceaseless",
+"crucial"
+]
+},
+{
+"question": "Which word means willing to be helpful and do what is asked or required?",
+"choices": [
+"cooperative",
+"impulsively",
+"myriad",
+"buzzing"
+]
+},
+{
+"question": "Which word refers to a sugary fluid secreted by plants, especially within flowers to encourage pollination by insects and other animals?",
+"choices": [
+"nectar",
+"hive",
+"pollination",
+"roam"
+]
+},
+{
+"question": "Which word refers to a place where bees are kept, typically in the form of a box or other container?",
+"choices": [
+"hive",
+"model",
+"navigate",
+"riddle"
+]
+},
+{
+"question": "Which phrase means to support or sustain something?",
+"choices": [
+"hold up",
+"be vital to",
+"apart from",
+"one day"
+]
+},
+{
+"question": "Which word refers to a system or thing used as an example to follow or imitate?",
+"choices": [
+"model",
+"diligence",
+"buzzing",
+"nectar"
+]
+},
+{
+"question": "Which phrase means except for or other than?",
+"choices": [
+"apart from",
+"hold up",
+"be vital to",
+"one day"
+]
+},
+{
+"question": "Which word means careful and persistent work or effort?",
+"choices": [
+"diligence",
+"impulsively",
+"ceaseless",
+"myriad"
+]
+},
+{
+"question": "Which phrase means to be absolutely necessary or essential to something?",
+"choices": [
+"be vital to",
+"apart from",
+"hold up",
+"one day"
+]
+},
+{
+"question": "Which word refers to the transfer of pollen to a stigma, ovule, flower, or plant to allow fertilization?",
+"choices": [
+"pollination",
+"roam",
+"navigate",
+"riddle"
+]
+},
+{
+"question": "Which phrase refers to a point in the future or an unspecified time?",
+"choices": [
+"one day",
+"be vital to",
+"apart from",
+"hold up"
+]
+},
+{
+"question": "Which word refers to a continuous humming or murmuring sound, such as that made by bees?",
+"choices": [
+"buzzing",
+"cooperative",
+"energetic",
+"diligence"
+]
+},
+{
+"question": "Which word means to move about or travel aimlessly or unsystematically, especially over a wide area?",
+"choices": [
+"roam",
+"impulsively",
+"ceaseless",
+"myriad"
+]
+},
+{
+"question": "Which word means acting or done without forethought or reflection?",
+"choices": [
+"impulsively",
+"crucial",
+"navigate",
+"riddle"
+]
+},
+{
+"question": "Which word means continuing without pause or interruption?",
+"choices": [
+"ceaseless",
+"roam",
+"buzzing",
+"nectar"
+]
+},
+{
+"question": "Which word means to plan and direct the route or course of a ship, aircraft, or other form of transport?",
+"choices": [
+"navigate",
+"hive",
+"model",
+"pollination"
+]
+},
+{
+"question": "Which word refers to a countless or extremely great number of people or things?",
+"choices": [
+"myriad",
+"diligence",
+"cooperative",
+"energetic"
+]
+},
+{
+"question": "Which word means decisive or critical, especially in the success or failure of something?",
+"choices": [
+"crucial",
+"impulsively",
+"ceaseless",
+"one day"
+]
+},
+{
+"question": "Which word refers to a person or thing that is mysterious, puzzling, or difficult to understand?",
+"choices": [
+"riddle",
+"apart from",
+"hold up",
+"be vital to"
+]
+},
+{
+"question": "Which word means made or produced by human beings rather than occurring naturally?",
+"choices": [
+"artificial",
+"ongoing",
+"straightforward",
+"progressive"
+]
+},
+{
+"question": "Which word means to make something more difficult or confusing to understand or deal with?",
+"choices": [
+"complicate",
+"cruise",
+"pinpoint",
+"utilize"
+]
+},
+{
+"question": "Which word means to sail or travel about in an area without a precise destination, especially for pleasure?",
+"choices": [
+"cruise",
+"roundabout",
+"maneuver",
+"abbreviate"
+]
+},
+{
+"question": "Which word means easy to understand or simple?",
+"choices": [
+"straightforward",
+"artificial",
+"amendment",
+"blueprint"
+]
+},
+{
+"question": "Which word means to identify or locate exactly?",
+"choices": [
+"pinpoint",
+"complicate",
+"measure A against B",
+"continually"
+]
+},
+{
+"question": "Which word means not direct, circuitous or circumlocutory?",
+"choices": [
+"roundabout",
+"cruise",
+"armed with",
+"beforehand"
+]
+},
+{
+"question": "Which phrase means equipped with a particular resource, tool or ability?",
+"choices": [
+"armed with",
+"straightforward",
+"map out",
+"ongoing research"
+]
+},
+{
+"question": "Which word means a useful or valuable thing, person, or quality?",
+"choices": [
+"asset",
+"pinpoint",
+"abbreviate",
+"amendment"
+]
+},
+{
+"question": "Which word means a movement or series of moves requiring skill and care?",
+"choices": [
+"maneuver",
+"roundabout",
+"utilize",
+"continually"
+]
+},
+{
+"question": "Which phrase refers to research or study that is still continuing and has not reached a conclusion?",
+"choices": [
+"ongoing research",
+"cruise",
+"measure A against B",
+"blueprint"
+]
+},
+{
+"question": "Which phrase means to judge the importance or quality of one thing by comparing it with another?",
+"choices": [
+"measure A against B",
+"armed with",
+"beforehand",
+"map out"
+]
+},
+{
+"question": "Which word means to shorten a word, phrase, or text?",
+"choices": [
+"abbreviate",
+"straightforward",
+"asset",
+"progressive"
+]
+},
+{
+"question": "Which word means a minor change or addition designed to improve a text, piece of legislation, etc.?",
+"choices": [
+"amendment",
+"pinpoint",
+"utilize",
+"ongoing research"
+]
+},
+{
+"question": "Which word means in a way that keeps increasing or developing gradually?",
+"choices": [
+"progressively",
+"roundabout",
+"continually",
+"artificial"
+]
+},
+{
+"question": "Which phrase means to plan a route or course of action in detail?",
+"choices": [
+"map out",
+"measure A against B",
+"armed with",
+"cruise"
+]
+},
+{
+"question": "Which word means in advance or before an event or action?",
+"choices": [
+"beforehand",
+"abbreviate",
+"amendment",
+"maneuver"
+]
+},
+{
+"question": "Which word means a design plan or other technical drawing?",
+"choices": [
+"blueprint",
+"straightforward",
+"asset",
+"ongoing research"
+]
+},
+{
+"question": "Which word means repeated frequently or without interruption?",
+"choices": [
+"continually",
+"pinpoint",
+"progressive",
+"utilize"
+]
+},
+{
+"question": "Which word means to make practical or effective use of something?",
+"choices": [
+"utilize",
+"roundabout",
+"map out",
+"artificial"
+]
+}
+]

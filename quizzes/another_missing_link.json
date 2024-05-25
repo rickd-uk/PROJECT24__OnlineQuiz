@@ -1,0 +1,353 @@
+[
+{
+"question": "What term refers to the preserved traces or impressions of ancient life forms?",
+"choices": [
+"fossilized remains",
+"hominid",
+"predecessor",
+"scant"
+]
+},
+{
+"question": "What is the term for a primate of a family that includes humans and their fossil ancestors?",
+"choices": [
+"hominid",
+"paleontologist",
+"anatomy",
+"skull"
+]
+},
+{
+"question": "What word means a thing that has been followed or replaced by another?",
+"choices": [
+"predecessor",
+"cave",
+"corpse",
+"lime"
+]
+},
+{
+"question": "Which word means barely sufficient or very little?",
+"choices": [
+"scant",
+"intact",
+"adjacent",
+"envelop"
+]
+},
+{
+"question": "Which word means to go back over or return along the same route?",
+"choices": [
+"retrace",
+"plunge",
+"lure",
+"pile"
+]
+},
+{
+"question": "What term refers to the order in which species or organisms developed over time?",
+"choices": [
+"evolutionary sequence",
+"fossilized remains",
+"scant",
+"predecessor"
+]
+},
+{
+"question": "Which word refers to the bodily structure of a creature?",
+"choices": [
+"anatomy",
+"hominid",
+"paleontologist",
+"cave"
+]
+},
+{
+"question": "What is a scientist who studies fossils called?",
+"choices": [
+"paleontologist",
+"corpse",
+"skull",
+"lime"
+]
+},
+{
+"question": "Which phrase means to be actively involved or occupied with something?",
+"choices": [
+"be engaged in",
+"be crammed with",
+"be lured into",
+"plunge to one's death"
+]
+},
+{
+"question": "Which word refers to a large underground chamber, typically of natural origin, in a hillside or cliff?",
+"choices": [
+"cave",
+"adjacent area",
+"pile",
+"envelop"
+]
+},
+{
+"question": "What term refers to a place that is next to or adjoining something else?",
+"choices": [
+"adjacent area",
+"intact",
+"scant",
+"evolutionary sequence"
+]
+},
+{
+"question": "Which word means not damaged or impaired in any way; complete?",
+"choices": [
+"intact",
+"hominid",
+"predecessor",
+"fossilized remains"
+]
+},
+{
+"question": "Which word refers to the bony framework of the head, enclosing the brain?",
+"choices": [
+"skull",
+"anatomy",
+"paleontologist",
+"corpse"
+]
+},
+{
+"question": "Which phrase means to be filled to overflowing with something?",
+"choices": [
+"be crammed with",
+"be engaged in",
+"be lured into",
+"plunge to one's death"
+]
+},
+{
+"question": "Which phrase means to fall or jump from a great height to one's death?",
+"choices": [
+"plunge to one's death",
+"be crammed with",
+"envelop",
+"pile"
+]
+},
+{
+"question": "Which phrase means to be attracted or tempted into a place or situation?",
+"choices": [
+"be lured into",
+"be engaged in",
+"retrace",
+"scant"
+]
+},
+{
+"question": "Which word refers to a dead body, especially of a human?",
+"choices": [
+"corpse",
+"hominid",
+"cave",
+"intact"
+]
+},
+{
+"question": "Which word means a heap of things laid or lying one on top of another?",
+"choices": [
+"pile",
+"predecessor",
+"lime",
+"adjacent area"
+]
+},
+{
+"question": "Which word means to wrap up, cover, or surround completely?",
+"choices": [
+"envelop",
+"evolutionary sequence",
+"anatomy",
+"skull"
+]
+},
+{
+"question": "Which word refers to a white, caustic alkaline substance consisting of calcium oxide?",
+"choices": [
+"lime",
+"fossilized remains",
+"paleontologist",
+"corpse"
+]
+},
+{
+"question": "Which phrase means to move on foot in an upright position?",
+"choices": [
+"walk erect",
+"offer a glimpse into",
+"iron out",
+"be presumed to be"
+]
+},
+{
+"question": "Which word refers to a large primate that lacks a tail, including gorillas, chimpanzees, orangutans, and gibbons?",
+"choices": [
+"ape",
+"descendant",
+"ancestor",
+"primitive"
+]
+},
+{
+"question": "Which word means of or relating to the face?",
+"choices": [
+"facial",
+"hereditary",
+"meager",
+"primitive"
+]
+},
+{
+"question": "Which word means relating to or denoting a preliterate, nonindustrial society or culture characterized by simple tools and subsistence-based economy?",
+"choices": [
+"primitive",
+"facial",
+"ape",
+"ancestor"
+]
+},
+{
+"question": "Which word refers to an artificial spring from which water flows?",
+"choices": [
+"fountain",
+"descendant",
+"ancestor",
+"overlap"
+]
+},
+{
+"question": "Which phrase means to be accepted as true without proof?",
+"choices": [
+"be presumed to be",
+"walk erect",
+"offer a glimpse into",
+"iron out"
+]
+},
+{
+"question": "Which word refers to a person, animal, or plant that is descended from a particular ancestor?",
+"choices": [
+"descendant",
+"ape",
+"primitive",
+"ancestor"
+]
+},
+{
+"question": "Which word means a person or animal that lives in or occupies a place?",
+"choices": [
+"inhabitant",
+"fountain",
+"hereditary",
+"meager"
+]
+},
+{
+"question": "Which phrase means at this point in a process or development?",
+"choices": [
+"at this stage",
+"whereby",
+"the probability is that",
+"iron out"
+]
+},
+{
+"question": "Which word means by which; through which?",
+"choices": [
+"whereby",
+"at this stage",
+"overlap",
+"revise"
+]
+},
+{
+"question": "Which word means genetically transmitted or determined?",
+"choices": [
+"hereditary",
+"facial",
+"inhabitant",
+"ancestor"
+]
+},
+{
+"question": "Which phrase means to provide a brief look or insight into something?",
+"choices": [
+"offer a glimpse into",
+"walk erect",
+"be presumed to be",
+"the probability is that"
+]
+},
+{
+"question": "Which word means the improvement or clarification of something by making small changes?",
+"choices": [
+"refinement",
+"fountain",
+"descendant",
+"meager"
+]
+},
+{
+"question": "Which phrase means that something is likely to happen or be the case?",
+"choices": [
+"the probability is that",
+"at this stage",
+"whereby",
+"offer a glimpse into"
+]
+},
+{
+"question": "Which word refers to a person, typically one more remote than a grandparent, from whom one is descended?",
+"choices": [
+"ancestor",
+"ape",
+"primitive",
+"hereditary"
+]
+},
+{
+"question": "Which word means to extend over so as to cover partly?",
+"choices": [
+"overlap",
+"revise",
+"meager",
+"whereby"
+]
+},
+{
+"question": "Which word means lacking in quantity or quality?",
+"choices": [
+"meager",
+"facial",
+"inhabitant",
+"refinement"
+]
+},
+{
+"question": "Which word means to reconsider and alter something in the light of further evidence?",
+"choices": [
+"revise",
+"overlap",
+"iron out",
+"descendant"
+]
+},
+{
+"question": "Which phrase means to find a solution to or resolve a problem?",
+"choices": [
+"iron out",
+"walk erect",
+"the probability is that",
+"be presumed to be"
+]
+}
+]

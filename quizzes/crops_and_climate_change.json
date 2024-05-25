@@ -1,0 +1,443 @@
+[
+{
+"question": "Which word means to make certain that something will occur or be the case?",
+"choices": [
+"ensure",
+"disrupt",
+"foretell",
+"wither"
+]
+},
+{
+"question": "Which word means causing great and irreparable damage?",
+"choices": [
+"destructive",
+"planetary",
+"drought-resistant",
+"staple"
+]
+},
+{
+"question": "What term refers to long-term shifts in global or regional climate patterns?",
+"choices": [
+"climate change",
+"dehydration",
+"evaporation",
+"famine"
+]
+},
+{
+"question": "Which word means relating to or affecting the entire planet?",
+"choices": [
+"planetary",
+"yield",
+"prototype",
+"reservoir"
+]
+},
+{
+"question": "Which word means the state of having lost too much water from the body?",
+"choices": [
+"dehydration",
+"evaporation",
+"famine",
+"drought-resistant"
+]
+},
+{
+"question": "Which word means the process of turning from liquid into vapor?",
+"choices": [
+"evaporation",
+"reservoir",
+"disrupt",
+"cereals"
+]
+},
+{
+"question": "Which word refers to a large natural or artificial lake used as a source of water supply?",
+"choices": [
+"reservoir",
+"staple",
+"prototype",
+"yield"
+]
+},
+{
+"question": "Which word means to interrupt or cause disorder to an event, activity, or process?",
+"choices": [
+"disrupt",
+"ensure",
+"foretell",
+"wither"
+]
+},
+{
+"question": "Which word refers to grains used for food, such as wheat, rice, or corn?",
+"choices": [
+"cereals",
+"staple",
+"famine",
+"prototype"
+]
+},
+{
+"question": "Which word means a main or important element of something, especially of a diet?",
+"choices": [
+"staple",
+"alongside",
+"yield",
+"drought-resistant"
+]
+},
+{
+"question": "Which word means to predict or prophesy a future event?",
+"choices": [
+"foretell",
+"disrupt",
+"ensure",
+"wither"
+]
+},
+{
+"question": "Which word means the rate at which something occurs over a particular period of time?",
+"choices": [
+"frequency",
+"famine",
+"reservoir",
+"evaporation"
+]
+},
+{
+"question": "Which phrase means on the verge of something, typically something bad or disastrous?",
+"choices": [
+"on the brink of",
+"alongside",
+"climate change",
+"dehydration"
+]
+},
+{
+"question": "Which word means an extreme scarcity of food?",
+"choices": [
+"famine",
+"cereals",
+"staple",
+"prototype"
+]
+},
+{
+"question": "Which word means a first or preliminary version of a device from which other forms are developed?",
+"choices": [
+"prototype",
+"yield",
+"drought-resistant",
+"planetary"
+]
+},
+{
+"question": "Which word means able to withstand prolonged periods of dry weather?",
+"choices": [
+"drought-resistant",
+"alongside",
+"disrupt",
+"foretell"
+]
+},
+{
+"question": "Which word means to produce or provide a natural, agricultural, or industrial product?",
+"choices": [
+"yield",
+"wither",
+"ensure",
+"frequency"
+]
+},
+{
+"question": "Which word means next to or along with someone or something else?",
+"choices": [
+"alongside",
+"staple",
+"famine",
+"cereals"
+]
+},
+{
+"question": "Which word means to become dry and shriveled, typically due to lack of water?",
+"choices": [
+"wither",
+"disrupt",
+"foretell",
+"prototype"
+]
+},
+{
+"question": "Which word means the supply of water to land or crops to help growth, typically by means of channels?",
+"choices": [
+"irrigation",
+"pasture",
+"barren",
+"precarious"
+]
+},
+{
+"question": "Which word is a unit of measurement for liquid capacity equal to 4 quarts or 3.785 liters?",
+"choices": [
+"gallon",
+"magnify",
+"breed",
+"gravity"
+]
+},
+{
+"question": "Which word means land covered with grass and other low plants suitable for grazing animals?",
+"choices": [
+"pasture",
+"irrigation",
+"barren",
+"uneasy"
+]
+},
+{
+"question": "Which word means too poor to produce much or any vegetation?",
+"choices": [
+"barren",
+"precarious",
+"gallon",
+"mission"
+]
+},
+{
+"question": "Which word means feeling or showing anxiety or discontent?",
+"choices": [
+"uneasy",
+"pasture",
+"magnify",
+"temptation"
+]
+},
+{
+"question": "Which word means not securely held or in position; dangerously likely to fall or collapse?",
+"choices": [
+"precarious",
+"irrigation",
+"conspiracy",
+"breed"
+]
+},
+{
+"question": "Which word means a secret plan by a group to do something unlawful or harmful?",
+"choices": [
+"conspiracy",
+"barren",
+"uneasy",
+"gravity"
+]
+},
+{
+"question": "Which phrase means for the sake of or in honor of someone or something?",
+"choices": [
+"in the name of",
+"at stake",
+"patent",
+"mission"
+]
+},
+{
+"question": "Which word means a government authority or license conferring a right or title for a set period, especially the sole right to make, use, or sell an invention?",
+"choices": [
+"patent",
+"magnify",
+"temptation",
+"breed"
+]
+},
+{
+"question": "Which word means to make something appear larger than it is, especially with a lens or microscope?",
+"choices": [
+"magnify",
+"gallon",
+"pasture",
+"conspiracy"
+]
+},
+{
+"question": "Which word means to cause an animal to produce offspring, typically in a controlled and organized way?",
+"choices": [
+"breed",
+"irrigation",
+"barren",
+"gravity"
+]
+},
+{
+"question": "Which word means an important assignment carried out for political, religious, or commercial purposes, typically involving travel?",
+"choices": [
+"mission",
+"uneasy",
+"precarious",
+"patent"
+]
+},
+{
+"question": "Which word means the force that attracts a body toward the center of the earth or toward any other physical body having mass?",
+"choices": [
+"gravity",
+"magnify",
+"temptation",
+"conspiracy"
+]
+},
+{
+"question": "Which phrase means to be at risk or in danger of being lost or damaged?",
+"choices": [
+"at stake",
+"in the name of",
+"breed",
+"mission"
+]
+},
+{
+"question": "Which word means the desire to do something, especially something wrong or unwise?",
+"choices": [
+"temptation",
+"gallon",
+"pasture",
+"barren"
+]
+},
+{
+"question": "Which word means a detailed analysis and assessment of something, especially a literary, philosophical, or political theory?",
+"choices": [
+"critique",
+"distort",
+"economical",
+"emit"
+]
+},
+{
+"question": "Which phrase means to mistake one person or thing for another?",
+"choices": [
+"confuse A with B",
+"chat with",
+"the other way around",
+"disregard"
+]
+},
+{
+"question": "Which word means to give a misleading or false account or impression of something?",
+"choices": [
+"distort",
+"influential",
+"informative",
+"analogy"
+]
+},
+{
+"question": "Which word refers to a comparison between two things, typically for the purpose of explanation or clarification?",
+"choices": [
+"analogy",
+"concept",
+"disagreement",
+"inspection"
+]
+},
+{
+"question": "Which word means to pay no attention to or ignore something?",
+"choices": [
+"disregard",
+"critique",
+"cautious",
+"economical"
+]
+},
+{
+"question": "Which word means giving good value or service in relation to the amount of money, time, or effort spent?",
+"choices": [
+"economical",
+"influential",
+"informative",
+"emit"
+]
+},
+{
+"question": "Which word refers to a careful examination or scrutiny of something?",
+"choices": [
+"inspection",
+"disagreement",
+"concept",
+"distort"
+]
+},
+{
+"question": "Which word means providing useful or interesting information?",
+"choices": [
+"informative",
+"analogy",
+"disregard",
+"cautious"
+]
+},
+{
+"question": "Which word refers to an abstract idea or general notion?",
+"choices": [
+"concept",
+"economical",
+"emit",
+"influential"
+]
+},
+{
+"question": "Which word means having great influence on someone or something?",
+"choices": [
+"influential",
+"informative",
+"critique",
+"the other way around"
+]
+},
+{
+"question": "Which word means careful to avoid potential problems or dangers?",
+"choices": [
+"cautious",
+"distort",
+"chat with",
+"disagreement"
+]
+},
+{
+"question": "Which phrase means in the opposite order or direction?",
+"choices": [
+"the other way around",
+"confuse A with B",
+"disregard",
+"analogy"
+]
+},
+{
+"question": "Which word means to produce or discharge something, especially gas, radiation, heat, or light?",
+"choices": [
+"emit",
+"economical",
+"inspection",
+"concept"
+]
+},
+{
+"question": "Which word refers to a lack of consensus or approval?",
+"choices": [
+"disagreement",
+"influential",
+"informative",
+"cautious"
+]
+},
+{
+"question": "Which phrase means to talk or converse with someone in a friendly and informal way?",
+"choices": [
+"chat with",
+"emit",
+"critique",
+"the other way around"
+]
+}
+]

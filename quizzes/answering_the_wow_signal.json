@@ -1,0 +1,173 @@
+[
+  {
+    "question": "What term refers to intelligent life originating from outside of Earth?",
+    "choices": [
+      "extraterrestrial intelligence",
+      "stun",
+      "astronomer",
+      "hail A as B"
+    ]
+  },
+  {
+    "question": "What phrase means to actively search for or watch for something?",
+    "choices": [
+      "on the lookout for ~",
+      "intercept", 
+      "constitute",
+      "authentic"
+    ]
+  },
+  {
+    "question": "What word refers to a hypothetical or fictional being from outer space?",
+    "choices": [
+      "alien",
+      "narrow down ~",
+      "conjecture",
+      "brush off ~"
+    ]
+  },
+  {
+    "question": "What word means to carefully examine or survey something?",
+    "choices": [
+      "scan",
+      "dispatch",
+      "assemble",
+      "mischievous"
+    ]
+  },
+  {
+    "question": "What phrase means continuously, without stopping?",
+    "choices": [
+      "around the clock",
+      "designate",
+      "hail A as B",
+      "constitute" 
+    ]
+  },
+  {
+    "question": "What word means to detect and receive a signal or message?",
+    "choices": [
+      "intercept",
+      "authentic",
+      "narrow down ~",
+      "conjecture"
+    ]
+  },
+  {
+    "question": "What term refers to a scientist who studies celestial objects and phenomena?",
+    "choices": [
+      "astronomer",
+      "brush off ~",
+      "dispatch",
+      "assemble"
+    ]
+  },
+  {
+    "question": "What word means to shock or temporarily paralyze someone?", 
+    "choices": [
+      "stun",
+      "mischievous",
+      "on the lookout for ~",
+      "alien"
+    ]
+  },
+  {
+    "question": "What word refers to a written or printed record of something?",
+    "choices": [
+      "transcript",
+      "scan",
+      "around the clock",
+      "intercept"
+    ]
+  },
+  {
+    "question": "What word means to formally choose or appoint someone or something for a particular purpose?",
+    "choices": [
+      "designate",
+      "astronomer",
+      "stun",
+      "transcript"
+    ]
+  },
+  {
+    "question": "What phrase means to identify one thing as another?",
+    "choices": [
+      "hail A as B",
+      "extraterrestrial intelligence",
+      "on the lookout for ~",
+      "alien"  
+    ]
+  },
+  {
+    "question": "What word means to make up or compose something?",
+    "choices": [
+      "constitute",
+      "scan",
+      "around the clock",
+      "intercept"
+    ]
+  },
+  {
+    "question": "What word means genuine or real?",
+    "choices": [
+      "authentic",
+      "astronomer",
+      "stun",
+      "transcript"
+    ]
+  },
+  {
+    "question": "What phrase means to reduce a list of options to a smaller number?",
+    "choices": [
+      "narrow down ~",
+      "designate",
+      "hail A as B",
+      "constitute"
+    ]
+  },
+  {
+    "question": "What word refers to a theoretical opinion or explanation based on incomplete evidence?",
+    "choices": [
+      "conjecture",
+      "authentic",
+      "narrow down ~", 
+      "brush off ~"
+    ]
+  },
+  {
+    "question": "What phrase means to ignore or dismiss something as unimportant?",
+    "choices": [
+      "brush off ~",
+      "extraterrestrial intelligence",
+      "alien",
+      "scan"
+    ]
+  },
+  {
+    "question": "What word means to send off in a specific direction?",
+    "choices": [
+      "dispatch",
+      "around the clock",
+      "intercept",
+      "astronomer"
+    ]
+  },
+  {
+    "question": "What word means to collect or put together various components?",
+    "choices": [
+      "assemble",
+      "stun",
+      "transcript", 
+      "designate"
+    ]
+  },
+  {
+    "question": "What word means causing or involving fun in an annoying way?",
+    "choices": [
+      "mischievous",
+      "hail A as B",
+      "constitute",
+      "authentic"
+    ]
+  }
+]
