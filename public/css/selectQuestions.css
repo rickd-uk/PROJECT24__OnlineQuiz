@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+}
+
+.custom-number-input {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.custom-number-input button {
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.custom-number-input input[type="text"] {
+  width: 60px;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 0 4px;
+}
+
+input[type="number"] {
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  font-size: 25px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #66afe9;
+  box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}

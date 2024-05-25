@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Select Questions</title>
+  <link rel="stylesheet" href="/css/selectQuestions.css">
+</head>
+<body>
+  <h1>Select Number of Questions</h1>
+  <div class="form-container">
+    <form action="/start-quiz" method="post">
+      <div class="form-group">
+        <div class="custom-number-input">
+          <button type="button" class="decrement">-</button>
+          <input type="text" id="numQuestions" name="numQuestions" class="number-input" min="1" max="<%= totalQuestions %>" value="1" readonly required>
+          <button type="button" class="increment">+</button>
+        </div>
+        <button type="submit">Start Quiz</button>
+      </div>
+    </form>
+  </div>
+  <script src="/js/numberInput.js"></script>
+</body>
+</html>

@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Quiz - Question <%= question.id %></title>
+  <title>Quiz - Question </title>
   <link rel="stylesheet" href="/css/question.css">
 </head>
 <body>
-  <h1>Question <%= question.id %></h1>
+  <h1>Question </h1>
   <div class="question">
     <h3><%= question.question %></h3>
-    <% shuffledChoices.forEach((choice) => { %>
-      <form action="/submit" method="post">
-        <input type="hidden" name="questionId" value="<%= question.id %>">
-        <button type="submit" name="answer" value="<%= choice %>" class="choice-button"><%= choice %></button>
-      </form>
-    <% }); %>
     <form action="/submit" method="post">
-      <input type="hidden" name="questionId" value="<%= question.id %>">
+      <input type="hidden" name="questionIndex" value="<%= questionIndex %>">
+      <% shuffledChoices.forEach((choice) => { %>
+        <button type="submit" name="answer" value="<%= choice %>" class="choice-button"><%= choice %></button>
+      <% }); %>
       <button type="submit" name="answer" value="" class="dont-know-button">I don't know</button>
     </form>
   </div>
