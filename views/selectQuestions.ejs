@@ -5,28 +5,30 @@
   <link rel="stylesheet" href="/css/selectQuestions.css">
 </head>
 <body>
-  <h1>Select Quiz and Number of Questions</h1>
-  <div class="form-container">
-    <form action="/start-quiz" method="post">
-      <div class="form-group">
-        <label for="quizSelect">Select Quiz:</label>
-        <select id="quizSelect" name="quizName" required>
-          <option value="" selected>Select a Quiz</option>
-          <% quizzes.forEach(quiz => { %>
-            <option value="<%= quiz.name %>"><%= quiz.name %></option>
-          <% }) %>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="numQuestions">Number of Questions:</label>
-        <div class="number-input-container">
-          <button type="button" class="decrement">-</button>
-          <input type="text" id="numQuestions" name="numQuestions" class="number-input" min="1" max="<%= maxQuestions %>" value="5" required>
-          <button type="button" class="increment">+</button>
+  <div class="container">
+    <h1>Select Quiz and Number of Questions</h1>
+    <div class="form-container">
+      <form action="/start-quiz" method="post">
+        <div class="form-group">
+          <label for="quizSelect">Select Quiz:</label>
+          <select id="quizSelect" name="quizName" required>
+            <option value="" selected>Select a Quiz</option>
+            <% quizzes.forEach(quiz => { %>
+              <option value="<%= quiz.name %>"><%= quiz.name %></option>
+            <% }) %>
+          </select>
         </div>
-      </div>
-      <button type="submit" class="start-quiz-button">Start Quiz</button>
-    </form>
+        <div class="form-group">
+          <label for="numQuestions">Number of Questions:</label>
+          <div class="number-input-container">
+            <button type="button" class="decrement">-</button>
+            <input type="text" id="numQuestions" name="numQuestions" class="number-input" min="1" max="<%= maxQuestions %>" value="5" required>
+            <button type="button" class="increment">+</button>
+          </div>
+        </div>
+        <button type="submit" class="start-quiz-button">Start Quiz</button>
+      </form>
+    </div>
   </div>
   <script>
     const quizzes = <%- JSON.stringify(quizzes) %>;
